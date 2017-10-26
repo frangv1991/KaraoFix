@@ -42,6 +42,15 @@ public class Fixer {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
+    		
+    		try {
+				for(Path archivo:(Files.walk(carpeta)).collect(Collectors.toList())) {
+					Files.copy(archivo, out)
+				}
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
     	}
     	
     }
