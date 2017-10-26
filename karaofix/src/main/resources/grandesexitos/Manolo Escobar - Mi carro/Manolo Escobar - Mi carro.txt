@@ -7,8 +7,8 @@
 #COVER:Manolo Escobar - Mi carro.jpg
 #VIDEO:Manolo Escobar - Mi carro.avi
 #VIDEOGAP:0
-#BPM:219,4
-#GAP:27073,84
+#BPM:219
+#GAP:27074
 : 0 4 54 Mi
 : 4 6 59  ca
 : 12 9 59 rro
